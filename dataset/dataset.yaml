@@ -1,0 +1,4165 @@
+# TODO fill with more values
+clip1_0.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_3.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_5.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_6.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_8.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_11.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_12.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_15.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_16.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_17.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_19.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_20.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_21.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_22.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_23.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_24.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_25.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_26.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_27.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_30.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_31.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_32.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_33.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_34.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_35.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_36.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_37.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_38.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_39.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_41.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_45.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_46.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_47.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_48.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_50.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_51.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_52.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip1_54.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_55.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_56.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_57.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_58.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_59.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip1_60.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_7.mp4:
+    1:
+        start_frame: 5
+        valid: True
+
+randomly_clip_14.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_31.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_39.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_47.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_62.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_70.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_82.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_90.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_98.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_105.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_114.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_126.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_134.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_143.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_152.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_158.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_171.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_180.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_192.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_197.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_209.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_219.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_258.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_267.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_277.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_287.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_295.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_307.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_320.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_329.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_346.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_358.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_366.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_375.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_403.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_421.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_430.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_442.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_448.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_462.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_474.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_481.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_488.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_496.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_505.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_514.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_523.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_531.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+randomly_clip_542.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_550.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_557.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_569.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+randomly_clip_578.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_17.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_29.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_74.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_85.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_110.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_123.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_136.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_150.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_181.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_195.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_208.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_217.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_225.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_275.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_300.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_311.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_331.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_347.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_358.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_372.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_385.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_400.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_414.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_431.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_443.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_462.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_474.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_489.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_501.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_510.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_519.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_544.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+video5_game3_clip_556.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_567.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_577.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+video5_game3_clip_589.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_1.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_2.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_3.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_4.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_7.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_8.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_10.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_11.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_12.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_13.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_14.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_15.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_16.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_17.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_18.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_19.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_21.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_23.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_25.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_26.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_27.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_28.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_29.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_30.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_31.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_32.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_33.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_34.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_35.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_36.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_37.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_38.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_39.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_40.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_42.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_43.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_44.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_45.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+clip2_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+clip2_48.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+slow_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_12.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+slow_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_56.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+slow_57.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new0_0.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new1_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_56.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_57.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_58.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_59.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_60.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_61.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_62.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_63.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_64.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_65.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new1_66.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new2_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new3_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_2.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new8_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new8_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_7.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new9_8.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new9_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_11.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new9_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_13.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new9_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_56.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_57.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new9_58.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new9_59.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new9_60.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new9_61.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+New6_clip_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_7.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+New6_clip_8.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+New6_clip_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New5_clip_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_56.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_57.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_58.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_59.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_60.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New6_clip_61.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+New7_clip_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+        
+New4_clip_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_56.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_57.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_58.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New4_clip_59.mp4:
+    1:
+        start_frame: 0
+        valid: True
+        
+New5_clip_0.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+       
+New5_clip_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_11.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_12.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_13.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_15.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_18.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_55.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_56.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_57.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_58.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_59.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_60.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_61.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_62.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new10_63.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_1.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_2.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_3.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_4.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_5.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_6.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_7.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_8.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_9.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_10.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_11.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new11_12.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new11_13.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new11_14.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_15.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new11_16.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_17.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_18.mp4:
+    1:
+        start_frame: 0
+        valid: False
+
+new11_19.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_20.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_21.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_22.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_23.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_24.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_25.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_26.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_27.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_28.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_29.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_30.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_31.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_32.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_33.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_34.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_35.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_36.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_37.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_38.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_39.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_40.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_41.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_42.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_45.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_46.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_47.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_48.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_49.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_50.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_51.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_52.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_53.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+new11_54.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+test_clip_43.mp4:
+    1:
+        start_frame: 0
+        valid: True
+
+test_clip_44.mp4:
+    1:
+        start_frame: 0
+        valid: True
