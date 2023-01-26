@@ -32,7 +32,7 @@
  -->
 <h3 align="center">fapra_ai_public</h3>
 
-  <p align="center">
+  <p align="left">
     Lab project "Fachpraktikum Artificial Intelligence (Billiard Motion Prediction)", completed @IPVS department @UniversitätStuttgart
   </p>
 </div>
