@@ -36,7 +36,7 @@
     Lab project "Fachpraktikum Artificial Intelligence (Billiard Motion Prediction)", completed @IPVS department @UniversitätStuttgart
   </p>
 </div>
-
+<img title="Table Rendering" alt="Table Rendering" src="/rendering/frame_0_0.jpg">
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
