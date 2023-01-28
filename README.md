@@ -36,7 +36,47 @@
     Lab project "Fachpraktikum Artificial Intelligence (Billiard Motion Prediction)", completed @IPVS department @UniversitätStuttgart
   </p>
 </div>
-<img title="Table Rendering" alt="Table Rendering" src="/rendering/frame_0_0.jpg">
+
+<p align="center">
+  <img title="Introduction" alt="Introduction" src="/images/Introduction.JPG">
+</p>
+
+<h3 align="center">Camera Calibration</h3>
+<p align="center">
+  <img title="Camera Calibration" alt="Camera Calibration" src="/images/CameraCalibration.JPG">
+</p>
+
+
+<h3 align="center">Distortion Correction</h3>
+<p align="center">
+  <img title="Distortion Correction" alt="Distortion Correction" src="/images/DistortionCorrection.JPG">
+</p>
+
+<h3 align="center">Data Augmentation</h3>
+<p align="center">
+  <img title="Data Augmentation" alt="Data Augmentation" src="/images/DataAugmentation.JPG">
+</p>
+
+
+<h3 align="center">Baseline Naive Model</h3>
+<p align="center">
+  <img title="Baseline Naive Model" alt="Baseline Naive Model" src="/images/BaselineNaiveModel.JPG">
+</p>
+
+<h3 align="center">Baseline Linear Model</h3>
+<p align="center">
+  <img title="Baseline Linear Model" alt="Baseline Linear Model" src="/images/BaselineLinearModel.JPG">
+</p>
+
+<h3 align="center">LSTM Model</h3>
+<p align="center">
+  <img title="LSTM Model" alt="LSTM Model" src="/images/LSTMModel.JPG">
+</p>
+
+<h3 align="center">Table Rendering (and Prediction)</h3>
+<p align="center">
+  <img title="Table Rendering" alt="Table Rendering" src="/rendering/frame_0_0.jpg">
+</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
