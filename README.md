@@ -33,7 +33,12 @@
 <h3 align="center">fapra_ai_public</h3>
 
   <p align="left">
-    Lab project "Fachpraktikum Artificial Intelligence (Billiard Motion Prediction)", completed @IPVS department @UniversitätStuttgart
+    Lab project "Fachpraktikum Artificial Intelligence (Billiard Motion Prediction)", completed @IPVS department @UniversitätStuttgart.<br />
+    Following neural network architectures have been developed, trained and tested in inference:<br />
+    1. Baseline Naive Model<br />
+    2. Baseline Linear Model<br />
+    3. LSTM Model<br />
+    4. Transformer Model<br />
   </p>
 </div>
 
