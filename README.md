@@ -40,7 +40,7 @@
     1. Baseline Naive Model<br />
     2. Baseline Linear Model<br />
     3. LSTM Model<br />
-    4. Transformer Model<br />
+    4. Transformer Model (currently in progress)<br />
   </p>
 </div>
 
