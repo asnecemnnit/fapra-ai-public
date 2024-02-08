@@ -1,3 +1,5 @@
+import os
+import shutil
 import csv
 import matplotlib
 import matplotlib.pyplot as plt
@@ -8,66 +10,113 @@ import time
 import cv2
 from utils.ball import *
 
-matplotlib.use('tkagg')
+matplotlib.use("tkagg")
 
 #####     CLASSES FOR RENDERING     #####
 
+
 class TableRendering:
-    tableLength=1.94
-    tableWidth=0.97
-    tableBorderWidth=0.06
-    holeRadius=0.04
-    tableColour='lightseagreen'
-    tableBorderColour='teal'
-    holeColour='darkslategrey'
-    
+    tableLength = 1.94
+    tableWidth = 0.97
+    tableBorderWidth = 0.06
+    holeRadius = 0.04
+    tableColour = "lightseagreen"
+    tableBorderColour = "teal"
+    holeColour = "darkslategrey"
+
     def __init__(self):
-        tableLength=1.94
-        tableWidth=0.97
-        tableBorderWidth=0.05
-        holeRadius=0.01
-        tableColour='lightseagreen'
-        tableBorderColour='teal'
-        holeColour='darkslategrey'
+        tableLength = 1.94
+        tableWidth = 0.97
+        tableBorderWidth = 0.05
+        holeRadius = 0.01
+        tableColour = "lightseagreen"
+        tableBorderColour = "teal"
+        holeColour = "darkslategrey"
+
 
 class BallRendering(Ball):
-    ballRadius=0.0285
-    ballDiameter=2*ballRadius
-    ballPosition=(0.0885,0.0885)
-    ballColour='w'
-    ballExist=1
-         
-    def __init__(self,ball_type=None):
-        self.ball_type=ball_type
-        
+    ballRadius = 0.0285
+    ballDiameter = 2 * ballRadius
+    ballPosition = (0.0885, 0.0885)
+    ballColour = "w"
+    ballExist = 1
+
+    def __init__(self, ball_type=None):
+        self.ball_type = ball_type
+
     def __str__(self):
         return f"{self.ball_type.name}|x={self.x}, y={self.y}"
 
-    def setColour(self,colour):
-        self.ballColour=colour
+    def setColour(self, colour):
+        self.ballColour = colour
 
-    def setPosition(self,x,y):
-        self.ballPosition=(x+0.0885,y+0.0885)
-        self.x=x
-        self.y=y
-        if ((self.x<0) and (self.x>1.94)) or ((self.y<0) and (self.y>0.97)):
-            self.ballExist=0
+    def setPosition(self, x, y):
+        self.ballPosition = (float(x) + 0.0885, float(y) + 0.0885)
+
+        self.x = float(x)
+        self.y = float(y)
+        if ((self.x < 0) and (self.x > 1.94)) or ((self.y < 0) and (self.y > 0.97)):
+            self.ballExist = 0
         else:
-            self.ballExist=1
+            self.ballExist = 1
 
 
 #####     RENDEIRNG SHOW FUNCTIONS  (Pass Table and Ball objects)    #####
 
 
 def showTable(Table):
-    boundary = plt.Rectangle((0, 0), Table.tableLength+(2*Table.tableBorderWidth), Table.tableWidth+(2*Table.tableBorderWidth), fc=Table.tableBorderColour)
-    rectangle = plt.Rectangle((Table.tableBorderWidth, Table.tableBorderWidth), Table.tableLength, Table.tableWidth, fc=Table.tableColour)
-    hole1 = plt.Circle((Table.holeRadius, Table.holeRadius), Table.holeRadius, fc=Table.holeColour)
-    hole2 = plt.Circle((Table.holeRadius, Table.tableWidth+(2*Table.tableBorderWidth)-Table.holeRadius), Table.holeRadius, fc=Table.holeColour)
-    hole3 = plt.Circle(((Table.tableLength+(2*Table.tableBorderWidth))/2, Table.tableWidth+(2*Table.tableBorderWidth)-Table.holeRadius), Table.holeRadius, fc=Table.holeColour)
-    hole4 = plt.Circle((Table.tableLength+(2*Table.tableBorderWidth)-Table.holeRadius, Table.tableWidth+(2*Table.tableBorderWidth)-Table.holeRadius), Table.holeRadius, fc=Table.holeColour)
-    hole5 = plt.Circle((Table.tableLength+(2*Table.tableBorderWidth)-Table.holeRadius,Table.holeRadius), Table.holeRadius, fc=Table.holeColour)
-    hole6 = plt.Circle(((Table.tableLength+(2*Table.tableBorderWidth))/2, Table.holeRadius), Table.holeRadius, fc=Table.holeColour)
+    boundary = plt.Rectangle(
+        (0, 0),
+        Table.tableLength + (2 * Table.tableBorderWidth),
+        Table.tableWidth + (2 * Table.tableBorderWidth),
+        fc=Table.tableBorderColour,
+    )
+    rectangle = plt.Rectangle(
+        (Table.tableBorderWidth, Table.tableBorderWidth),
+        Table.tableLength,
+        Table.tableWidth,
+        fc=Table.tableColour,
+    )
+    hole1 = plt.Circle(
+        (Table.holeRadius, Table.holeRadius), Table.holeRadius, fc=Table.holeColour
+    )
+    hole2 = plt.Circle(
+        (
+            Table.holeRadius,
+            Table.tableWidth + (2 * Table.tableBorderWidth) - Table.holeRadius,
+        ),
+        Table.holeRadius,
+        fc=Table.holeColour,
+    )
+    hole3 = plt.Circle(
+        (
+            (Table.tableLength + (2 * Table.tableBorderWidth)) / 2,
+            Table.tableWidth + (2 * Table.tableBorderWidth) - Table.holeRadius,
+        ),
+        Table.holeRadius,
+        fc=Table.holeColour,
+    )
+    hole4 = plt.Circle(
+        (
+            Table.tableLength + (2 * Table.tableBorderWidth) - Table.holeRadius,
+            Table.tableWidth + (2 * Table.tableBorderWidth) - Table.holeRadius,
+        ),
+        Table.holeRadius,
+        fc=Table.holeColour,
+    )
+    hole5 = plt.Circle(
+        (
+            Table.tableLength + (2 * Table.tableBorderWidth) - Table.holeRadius,
+            Table.holeRadius,
+        ),
+        Table.holeRadius,
+        fc=Table.holeColour,
+    )
+    hole6 = plt.Circle(
+        ((Table.tableLength + (2 * Table.tableBorderWidth)) / 2, Table.holeRadius),
+        Table.holeRadius,
+        fc=Table.holeColour,
+    )
     plt.gca().add_patch(boundary)
     plt.gca().add_patch(rectangle)
     plt.gca().add_patch(hole1)
@@ -76,23 +125,28 @@ def showTable(Table):
     plt.gca().add_patch(hole4)
     plt.gca().add_patch(hole5)
     plt.gca().add_patch(hole6)
-    #print("showTable")
+    # print("showTable")
+
 
 def showSolidBall(Ball):
-    ball=plt.Circle(Ball.ballPosition, Ball.ballRadius, fc=Ball.ballColour)
-    if(Ball.ballExist==1):
+    ball = plt.Circle(Ball.ballPosition, Ball.ballRadius, fc=Ball.ballColour)
+    if Ball.ballExist == 1:
         plt.gca().add_patch(ball)
-    #print("showSolidBall")
+    # print("showSolidBall")
+
 
 def showStripedBall(Ball):
-    ball=plt.Circle(Ball.ballPosition, Ball.ballRadius, fc=Ball.ballColour)
-    stripe = plt.Circle(Ball.ballPosition, 0.01, fc='w') #white centre for striped ball
-    if(Ball.ballExist==1):
+    ball = plt.Circle(Ball.ballPosition, Ball.ballRadius, fc=Ball.ballColour)
+    stripe = plt.Circle(
+        Ball.ballPosition, 0.01, fc="w"
+    )  # white centre for striped ball
+    if Ball.ballExist == 1:
         plt.gca().add_patch(ball)
         plt.gca().add_patch(stripe)
-    #print("showStripedBall")
+    # print("showStripedBall")
 
-def showFrame():
+
+def showFrame(ax):
     showTable(table)
     showSolidBall(ballCB)
     showSolidBall(ballSY)
@@ -111,76 +165,99 @@ def showFrame():
     showStripedBall(ballGS)
     showStripedBall(ballMS)
 
+
 ##### Render function (Pass Ball Position, just call in final code)
 
-def renderMP4(ballPositions,file_name,frame_no,window,doMP4):
 
+def renderMP4(ballPositions, file_name, frame_no, axes, window, saveToDisk):
     ballPosition = [float(x) for x in ballPositions]
 
-    if window==0:
-        plt.title("Real Data")
-    if window==1:
-        plt.title("Predicted output (LSTM)")
-    if window==2:
-        plt.title("Predicted output (Linear)")
+    # Set the positions of the balls for the specified subplot
+    balls = [
+        ballCB,
+        ballSY,
+        ballSB,
+        ballSR,
+        ballSV,
+        ballSO,
+        ballSG,
+        ballSM,
+        ballSBlk,
+        ballYS,
+        ballBS,
+        ballRS,
+        ballVS,
+        ballOS,
+        ballGS,
+        ballMS,
+    ]
 
-    plt.axis([0,2.06,0,1.09])
-    plt.axes().set_aspect('equal')
-          
-    #print(ballPosition)
+    for ball, (x, y) in zip(balls, zip(ballPosition[::2], ballPosition[1::2])):
+        ball.setPosition(x, y)
 
-    ballCB.setPosition(ballPosition[0],ballPosition[1])
-    ballSY.setPosition(ballPosition[2],ballPosition[3])
-    ballSB.setPosition(ballPosition[4],ballPosition[5])
-    ballSR.setPosition(ballPosition[6],ballPosition[7])
-    ballSV.setPosition(ballPosition[8],ballPosition[9])
-    ballSO.setPosition(ballPosition[10],ballPosition[11])
-    ballSG.setPosition(ballPosition[12],ballPosition[13])
-    ballSM.setPosition(ballPosition[14],ballPosition[15])
-    ballSBlk.setPosition(ballPosition[16],ballPosition[17])
-    ballYS.setPosition(ballPosition[18],ballPosition[19])
-    ballBS.setPosition(ballPosition[20],ballPosition[21])
-    ballRS.setPosition(ballPosition[22],ballPosition[23])
-    ballVS.setPosition(ballPosition[24],ballPosition[25])
-    ballOS.setPosition(ballPosition[26],ballPosition[27])
-    ballGS.setPosition(ballPosition[28],ballPosition[29])
-    ballMS.setPosition(ballPosition[30],ballPosition[31])
+    # Show the frame with the balls in the appropriate subplot
+    showFrame(axes)
 
-    showFrame()
+    # Convert the plot to a numpy array
+    fig = plt.gcf()
+    fig.canvas.draw()
+    plot_img_np = np.array(fig.canvas.renderer._renderer)
+    # Convert the numpy array to BGR format
+    plt_cv = cv2.cvtColor(plot_img_np, cv2.COLOR_RGBA2BGR)
 
-    if doMP4==1:
-        plt.savefig(file_name+'_'+str(window)+'_'+str(frame_no)+'.png')
-    else:
-        plt.pause(0.01)
-        plt.cla()
+    # If saving as MP4, save the figure
+    if saveToDisk == 1:
+        # Save image using OpenCV
+        cv2.imwrite(
+            file_name + "_" + str(window) + "_" + str(frame_no) + ".png", plt_cv
+        )
+
+    return plt_cv
 
 
-#--------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 #####                                   RENDERING MAIN                                        #####
-#--------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
-#Create Table and Ball objects first
-table=TableRendering()
-ballCB=BallRendering(BallType.white_solid)
-ballSY=BallRendering(BallType.yellow_solid)
-ballSB=BallRendering(BallType.blue_solid)
-ballSR=BallRendering(BallType.red_solid)
-ballSV=BallRendering(BallType.purple_solid)
-ballSO=BallRendering(BallType.orange_solid)
-ballSG=BallRendering(BallType.green_solid)
-ballSM=BallRendering(BallType.brown_solid)
-ballSBlk=BallRendering(BallType.black_solid)
-ballYS=BallRendering(BallType.yellow_stripe)
-ballBS=BallRendering(BallType.blue_stripe)
-ballRS=BallRendering(BallType.red_stripe)
-ballVS=BallRendering(BallType.purple_stripe)
-ballOS=BallRendering(BallType.orange_stripe)
-ballGS=BallRendering(BallType.green_stripe)
-ballMS=BallRendering(BallType.brown_stripe)
+# Create Table and Ball objects first
+table = TableRendering()
+ballCB = BallRendering(BallType.white_solid)
+ballSY = BallRendering(BallType.yellow_solid)
+ballSB = BallRendering(BallType.blue_solid)
+ballSR = BallRendering(BallType.red_solid)
+ballSV = BallRendering(BallType.purple_solid)
+ballSO = BallRendering(BallType.orange_solid)
+ballSG = BallRendering(BallType.green_solid)
+ballSM = BallRendering(BallType.brown_solid)
+ballSBlk = BallRendering(BallType.black_solid)
+ballYS = BallRendering(BallType.yellow_stripe)
+ballBS = BallRendering(BallType.blue_stripe)
+ballRS = BallRendering(BallType.red_stripe)
+ballVS = BallRendering(BallType.purple_stripe)
+ballOS = BallRendering(BallType.orange_stripe)
+ballGS = BallRendering(BallType.green_stripe)
+ballMS = BallRendering(BallType.brown_stripe)
 
-#set ball colours
+# set ball colours
 
-ballColours=['w','gold','midnightblue','red','indigo','darkorange','g','maroon','k','gold','midnightblue','red','indigo','darkorange','g','maroon']
+ballColours = [
+    "w",
+    "gold",
+    "midnightblue",
+    "red",
+    "indigo",
+    "darkorange",
+    "g",
+    "maroon",
+    "k",
+    "gold",
+    "midnightblue",
+    "red",
+    "indigo",
+    "darkorange",
+    "g",
+    "maroon",
+]
 
 ballCB.setColour(ballColours[0])
 ballSY.setColour(ballColours[1])
@@ -200,56 +277,98 @@ ballGS.setColour(ballColours[14])
 ballMS.setColour(ballColours[15])
 
 
+# Final Rendering
 
-#Final Rendering
+width = 1280  # MP4 #640 each
+height = 480  # MP4
+temp_folder_name = "rendering/temp/"
+# Check if the folder exists
+if os.path.exists(temp_folder_name):
+    # If it exists, remove it and its contents
+    shutil.rmtree(temp_folder_name)
+    print(f"Folder '{temp_folder_name}' and its contents removed.")
 
-"""
+# Create the folder
+os.makedirs(temp_folder_name)
+print(f"Folder '{temp_folder_name}' created.")
+file_name = temp_folder_name + "rendering"  # MP4
 
-width = 1280 #MP4 #640 each
-height = 480 #MP4
-file_name='rendering' #MP4
-OUTPUT_FILE = file_name+'.mp4' #MP4
-fourcc = cv2.VideoWriter_fourcc('M','P','4','V') #MP4
-writer = cv2.VideoWriter(OUTPUT_FILE, 
-                         fourcc,
-                         30, # fps
-                         (width, height)) # resolution #MP4
+video_folder_name = "rendering/video/"
 
-file_input_path='dataset_1.csv'
+# Check if the folder exists
+if os.path.exists(video_folder_name):
+    # If it exists, remove it and its contents
+    shutil.rmtree(video_folder_name)
+    print(f"Folder '{video_folder_name}' and its contents removed.")
+
+# Create the folder
+os.makedirs(video_folder_name)
+print(f"Folder '{video_folder_name}' created.")
+OUTPUT_FILE = video_folder_name + "rendering.mp4"  # MP4
+fourcc = cv2.VideoWriter_fourcc("M", "P", "4", "V")  # MP4
+writer = cv2.VideoWriter(
+    OUTPUT_FILE, fourcc, 30, (width, height)  # fps
+)  # resolution #MP4
+
+file_input_path = (
+    "dataset/dataset_final_test/dataset_slow_30_strike_1_vertical_horizontal.csv"
+)
+
 
 with open(file_input_path) as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    frame_no = 0 #MP4
+    csv_reader = csv.reader(csv_file, delimiter=",")
+    frame_no = 0  # MP4
     for row in csv_reader:
+        # Create a figure with a subplot
+        fig1, axes1 = plt.subplots(1, 1)
+        axes1.set_xlim(0, 2.06)
+        axes1.set_ylim(0, 1.09)
+        axes1.set_aspect("equal")
+        axes1.set_title("Real Data")
 
-        #Render real data
-        renderMP4(row,file_name,frame_no,0) #Call this function to render frame, pass row of 32 values
-        real_window = cv2.imread(file_name+'_0_'+str(frame_no)+'.png') #MP4
+        # Render real data
+        real_window = renderMP4(
+            row, file_name, frame_no, axes1, window=0, saveToDisk=0
+        )  # Call this function to render frame, pass row of 32 values
+        plt.close(fig1)
 
-        #Render predicted data (LSTM)
-        renderMP4(row,file_name,frame_no,1) #Call this function to render frame, pass row of 32 values
-        predicted_window = cv2.imread(file_name+'_1_'+str(frame_no)+'.png') #MP4
+        # real_window = cv2.imread(file_name + "_0_" + str(frame_no) + ".png")  # MP4
 
-        #Render predicted data (Linear)
-        #renderMP4(row,file_name,frame_no,2) #Call this function to render frame, pass row of 32 values
-        #predicted_window = cv2.imread(file_name+'_2_'+str(frame_no)+'.png') #MP4
+        # Create a figure with a subplot
+        fig2, axes2 = plt.subplots(1, 1)
+        axes2.set_xlim(0, 2.06)
+        axes2.set_ylim(0, 1.09)
+        axes2.set_aspect("equal")
+        axes2.set_title("Predicted output (LSTM)")
 
-        #Concatenate two windows
+        # Render predicted data (LSTM)
+        predicted_window = renderMP4(
+            row, file_name, frame_no, axes2, window=1, saveToDisk=0
+        )  # Call this function to render frame, pass row of 32 values
+        plt.close(fig2)
+
+        # predicted_window = cv2.imread(file_name + "_1_" + str(frame_no) + ".png")  # MP4
+
+        # print("Real window size:", real_window.shape)
+        # print("Predicted window size:", predicted_window.shape)
+
+        # Concatenate two windows
         vis = np.concatenate((real_window, predicted_window), axis=1)
-        cv2.imwrite(file_name+str(frame_no)+'.png', vis)
-        display_window = cv2.imread(file_name+str(frame_no)+'.png')
+        display_window = vis
+        # cv2.imwrite(file_name + str(frame_no) + ".png", vis)
+        # display_window = cv2.imread(file_name + str(frame_no) + ".png")
 
-        #cv2.imshow("COMPARE", display_window)
-        cv2.waitKey(1) #MP4
-        writer.write(display_window) #MP4
+        writer.write(display_window)  # MP4
 
-        frame_no = frame_no + 1 #MP4
+        if not ((frame_no + 1) % 10):
+            print(f"frame {frame_no+1} processed")
 
-    writer.release() #MP4
+        frame_no += 1  # MP4
+
+print("all frames processed")
+writer.release()  # MP4
 
 
-"""
-
-#---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
 #####                                         END                                              #####
-#---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
