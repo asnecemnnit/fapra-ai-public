@@ -1,14 +1,16 @@
+import os
 import argparse
 import pandas as pd
 import cv2
 import numpy as np
+import matplotlib.pyplot as plt
 import torch
 from rendering.renderingMain import renderMP4
 
 ################################ Parameters ####################################
 ################################################################################
 
-model_name = "lstm_model_lstm_rel_in15_out15_ts2_ds1_gt0_ls30_biasTrue_polTrue_movTrue_lr0.0001_e0_n0.0703_t0.1106_v0.0686"
+model_name = "lstm_model_lstm_rel_in15_out15_ts2_ds1_gt0_ls30_biasTrue_polTrue_movTrue_lr0.0001_e3_n0.0710_t0.0693_v0.0673"
 number_input_frames = 15  # must be <= frames_without_prediction
 frames_without_prediction = number_input_frames
 predict_entire_clip = True  # predict entire clip with multistep (like with prediction_steps = frames in clip):
@@ -34,7 +36,8 @@ lstm.eval()
 
 # select dataset which shall be used for prediction:
 path_dataset_folder = "dataset/dataset_final_test/"
-name_dataset = "dataset_slow_30_strike_1.csv"
+# name_dataset = "dataset_slow_30_strike_1.csv"
+name_dataset = "dataset_New7_clip_37_strike_1_vertical.csv"
 
 # this one is in the training set !!!!!!! :
 # path_dataset = '../dataset/dataset_final_train/dataset_clip1_28_strike_1_vertical.csv'
@@ -46,6 +49,11 @@ path_dataset = path_dataset_folder + name_dataset
 data = pd.read_csv(path_dataset)
 data = np.array(data)
 path_videos = "videos/"
+# Check if the folder exists
+if not os.path.exists(path_videos):
+    # If it doesn't exist, create it
+    # Create the folder
+    os.makedirs(path_videos)
 
 if predict_entire_clip:
     OUTPUT_FILE = (
@@ -61,6 +69,7 @@ else:
         + name_dataset
         + ".mp4"
     )  # MP4
+
 
 path_frames = "frames_temp/"
 filename_frame = path_frames + "frame"
@@ -81,17 +90,32 @@ if (
     current_frames = np.zeros((number_input_frames, 32))
     for j in range(number_input_frames):
         current_frames[j] = data[frames_without_prediction - number_input_frames + j]
-    for i in range(shape(data)[0] - number_input_frames - 1):
-        renderMP4(data[i], filename_frame, i, 0, 1)
-        real_window = cv2.imread(filename_frame + "_0_" + str(i) + ".png")
+    for i in range(data.shape[0] - number_input_frames - 1):
+        # Create a figure with a subplot
+        fig1, axes1 = plt.subplots(1, 1)
+        axes1.set_xlim(0, 2.06)
+        axes1.set_ylim(0, 1.09)
+        axes1.set_aspect("equal")
+        axes1.set_title("Real Data")
+        real_window = renderMP4(data[i], filename_frame, i, axes1, 0, 0)
+        plt.close(fig1)
+
+        # real_window = cv2.imread(filename_frame + "_0_" + str(i) + ".png")
         if i < frames_without_prediction:
-            renderMP4(data[i], filename_frame, i, 1, 1)
+            # Create a figure with a subplot
+            fig2, axes2 = plt.subplots(1, 1)
+            axes2.set_xlim(0, 2.06)
+            axes2.set_ylim(0, 1.09)
+            axes2.set_aspect("equal")
+            axes2.set_title(f"Predicted output (LSTM) {i+1}th from from real data")
+            predicted_window = renderMP4(data[i], filename_frame, i, axes2, 1, 0)
+            plt.close(fig2)
         else:
-            dimensions = shape(current_frames)
+            dimensions = current_frames.shape
             dimensions = list(dimensions)
             tensor_in_model = torch.zeros(dimensions)
-            for m in range(int(shape(current_frames)[0])):
-                for n in range(int(shape(current_frames)[1])):
+            for m in range(int(current_frames.shape[0])):
+                for n in range(int(current_frames.shape[1])):
                     tensor_in_model[m][n] = current_frames[m][n]
             pred_pos, pred_exist = lstm.forward(tensor_in_model[None, :, :].to(device))
             predicted_frame = pred_pos.detach().numpy()
@@ -101,19 +125,29 @@ if (
             current_frames[current_frames.shape[0] - 1] = predicted_frame[
                 :, number_input_frames - 1
             ]
-            renderMP4(current_frames[number_input_frames - 1], filename_frame, i, 1, 1)
-        predicted_window = cv2.imread(filename_frame + "_1_" + str(i) + ".png")
+            # Create a figure with a subplot
+            fig2, axes2 = plt.subplots(1, 1)
+            axes2.set_xlim(0, 2.06)
+            axes2.set_ylim(0, 1.09)
+            axes2.set_aspect("equal")
+            axes2.set_title("Predicted output (LSTM)")
+            predicted_window = renderMP4(
+                current_frames[number_input_frames - 1], filename_frame, i, axes2, 1, 0
+            )
+            plt.close(fig2)
+        # predicted_window = cv2.imread(filename_frame + "_1_" + str(i) + ".png")
         vis = np.concatenate((real_window, predicted_window), axis=1)
-        cv2.imwrite(filename_frame + str(i) + ".png", vis)
-        display_window = cv2.imread(filename_frame + str(i) + ".png")
-        cv2.imshow("COMPARE", display_window)
-        cv2.waitKey(1)  # MP4
+        # cv2.imwrite(filename_frame + str(i) + ".png", vis)
+        # display_window = cv2.imread(filename_frame + str(i) + ".png")
+        display_window = vis
+        # cv2.imshow("COMPARE", display_window)
+        # cv2.waitKey(1)  # MP4
         writer.write(display_window)  # MP4
     writer.release()  # MP4
 else:  # multistep with 'prediction_steps' steps:
     current_frames = np.zeros((number_input_frames, 32))
     temp_frames = np.zeros((number_input_frames, 32))
-    for i in range(shape(data)[0] - number_input_frames - 1):
+    for i in range(data.shape[0] - number_input_frames - 1):
         renderMP4(data[i], filename_frame, i, 0, 1)
         real_window = cv2.imread(filename_frame + "_0_" + str(i) + ".png")
         if i < frames_without_prediction:
@@ -123,12 +157,12 @@ else:  # multistep with 'prediction_steps' steps:
                 current_frames[j] = data[
                     i - 1 - number_input_frames - prediction_steps + j
                 ]
-            dimensions = shape(current_frames)
+            dimensions = current_frames.shape
             dimensions = list(dimensions)
             tensor_in_model = torch.zeros(dimensions)
             for k in range(prediction_steps):
-                for m in range(int(shape(current_frames)[0])):
-                    for n in range(int(shape(current_frames)[1])):
+                for m in range(int(current_frames.shape[0])):
+                    for n in range(int(current_frames.shape[1])):
                         tensor_in_model[m][n] = current_frames[m][n]
                 pred_pos, pred_exist = lstm.forward(
                     tensor_in_model[None, :, :].to(device)

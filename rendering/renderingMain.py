@@ -215,67 +215,67 @@ def renderMP4(ballPositions, file_name, frame_no, axes, window, saveToDisk):
     return plt_cv
 
 
+# Create Table and Ball objects first
+table = TableRendering()
+ballCB = BallRendering(BallType.white_solid)
+ballSY = BallRendering(BallType.yellow_solid)
+ballSB = BallRendering(BallType.blue_solid)
+ballSR = BallRendering(BallType.red_solid)
+ballSV = BallRendering(BallType.purple_solid)
+ballSO = BallRendering(BallType.orange_solid)
+ballSG = BallRendering(BallType.green_solid)
+ballSM = BallRendering(BallType.brown_solid)
+ballSBlk = BallRendering(BallType.black_solid)
+ballYS = BallRendering(BallType.yellow_stripe)
+ballBS = BallRendering(BallType.blue_stripe)
+ballRS = BallRendering(BallType.red_stripe)
+ballVS = BallRendering(BallType.purple_stripe)
+ballOS = BallRendering(BallType.orange_stripe)
+ballGS = BallRendering(BallType.green_stripe)
+ballMS = BallRendering(BallType.brown_stripe)
+
+# set ball colours
+
+ballColours = [
+    "w",
+    "gold",
+    "midnightblue",
+    "red",
+    "indigo",
+    "darkorange",
+    "g",
+    "maroon",
+    "k",
+    "gold",
+    "midnightblue",
+    "red",
+    "indigo",
+    "darkorange",
+    "g",
+    "maroon",
+]
+
+ballCB.setColour(ballColours[0])
+ballSY.setColour(ballColours[1])
+ballSB.setColour(ballColours[2])
+ballSR.setColour(ballColours[3])
+ballSV.setColour(ballColours[4])
+ballSO.setColour(ballColours[5])
+ballSG.setColour(ballColours[6])
+ballSM.setColour(ballColours[7])
+ballSBlk.setColour(ballColours[8])
+ballYS.setColour(ballColours[9])
+ballBS.setColour(ballColours[10])
+ballRS.setColour(ballColours[11])
+ballVS.setColour(ballColours[12])
+ballOS.setColour(ballColours[13])
+ballGS.setColour(ballColours[14])
+ballMS.setColour(ballColours[15])
+
 if __name__ == "__main__":
     # --------------------------------------------------------------------------------------------------
     #####                                   RENDERING MAIN                                        #####
     # --------------------------------------------------------------------------------------------------
-
-    # Create Table and Ball objects first
-    table = TableRendering()
-    ballCB = BallRendering(BallType.white_solid)
-    ballSY = BallRendering(BallType.yellow_solid)
-    ballSB = BallRendering(BallType.blue_solid)
-    ballSR = BallRendering(BallType.red_solid)
-    ballSV = BallRendering(BallType.purple_solid)
-    ballSO = BallRendering(BallType.orange_solid)
-    ballSG = BallRendering(BallType.green_solid)
-    ballSM = BallRendering(BallType.brown_solid)
-    ballSBlk = BallRendering(BallType.black_solid)
-    ballYS = BallRendering(BallType.yellow_stripe)
-    ballBS = BallRendering(BallType.blue_stripe)
-    ballRS = BallRendering(BallType.red_stripe)
-    ballVS = BallRendering(BallType.purple_stripe)
-    ballOS = BallRendering(BallType.orange_stripe)
-    ballGS = BallRendering(BallType.green_stripe)
-    ballMS = BallRendering(BallType.brown_stripe)
-
-    # set ball colours
-
-    ballColours = [
-        "w",
-        "gold",
-        "midnightblue",
-        "red",
-        "indigo",
-        "darkorange",
-        "g",
-        "maroon",
-        "k",
-        "gold",
-        "midnightblue",
-        "red",
-        "indigo",
-        "darkorange",
-        "g",
-        "maroon",
-    ]
-
-    ballCB.setColour(ballColours[0])
-    ballSY.setColour(ballColours[1])
-    ballSB.setColour(ballColours[2])
-    ballSR.setColour(ballColours[3])
-    ballSV.setColour(ballColours[4])
-    ballSO.setColour(ballColours[5])
-    ballSG.setColour(ballColours[6])
-    ballSM.setColour(ballColours[7])
-    ballSBlk.setColour(ballColours[8])
-    ballYS.setColour(ballColours[9])
-    ballBS.setColour(ballColours[10])
-    ballRS.setColour(ballColours[11])
-    ballVS.setColour(ballColours[12])
-    ballOS.setColour(ballColours[13])
-    ballGS.setColour(ballColours[14])
-    ballMS.setColour(ballColours[15])
 
     # Final Rendering
 
