@@ -215,160 +215,158 @@ def renderMP4(ballPositions, file_name, frame_no, axes, window, saveToDisk):
     return plt_cv
 
 
-# --------------------------------------------------------------------------------------------------
-#####                                   RENDERING MAIN                                        #####
-# --------------------------------------------------------------------------------------------------
+if __name__ == "__main__":
+    # --------------------------------------------------------------------------------------------------
+    #####                                   RENDERING MAIN                                        #####
+    # --------------------------------------------------------------------------------------------------
 
-# Create Table and Ball objects first
-table = TableRendering()
-ballCB = BallRendering(BallType.white_solid)
-ballSY = BallRendering(BallType.yellow_solid)
-ballSB = BallRendering(BallType.blue_solid)
-ballSR = BallRendering(BallType.red_solid)
-ballSV = BallRendering(BallType.purple_solid)
-ballSO = BallRendering(BallType.orange_solid)
-ballSG = BallRendering(BallType.green_solid)
-ballSM = BallRendering(BallType.brown_solid)
-ballSBlk = BallRendering(BallType.black_solid)
-ballYS = BallRendering(BallType.yellow_stripe)
-ballBS = BallRendering(BallType.blue_stripe)
-ballRS = BallRendering(BallType.red_stripe)
-ballVS = BallRendering(BallType.purple_stripe)
-ballOS = BallRendering(BallType.orange_stripe)
-ballGS = BallRendering(BallType.green_stripe)
-ballMS = BallRendering(BallType.brown_stripe)
+    # Create Table and Ball objects first
+    table = TableRendering()
+    ballCB = BallRendering(BallType.white_solid)
+    ballSY = BallRendering(BallType.yellow_solid)
+    ballSB = BallRendering(BallType.blue_solid)
+    ballSR = BallRendering(BallType.red_solid)
+    ballSV = BallRendering(BallType.purple_solid)
+    ballSO = BallRendering(BallType.orange_solid)
+    ballSG = BallRendering(BallType.green_solid)
+    ballSM = BallRendering(BallType.brown_solid)
+    ballSBlk = BallRendering(BallType.black_solid)
+    ballYS = BallRendering(BallType.yellow_stripe)
+    ballBS = BallRendering(BallType.blue_stripe)
+    ballRS = BallRendering(BallType.red_stripe)
+    ballVS = BallRendering(BallType.purple_stripe)
+    ballOS = BallRendering(BallType.orange_stripe)
+    ballGS = BallRendering(BallType.green_stripe)
+    ballMS = BallRendering(BallType.brown_stripe)
 
-# set ball colours
+    # set ball colours
 
-ballColours = [
-    "w",
-    "gold",
-    "midnightblue",
-    "red",
-    "indigo",
-    "darkorange",
-    "g",
-    "maroon",
-    "k",
-    "gold",
-    "midnightblue",
-    "red",
-    "indigo",
-    "darkorange",
-    "g",
-    "maroon",
-]
+    ballColours = [
+        "w",
+        "gold",
+        "midnightblue",
+        "red",
+        "indigo",
+        "darkorange",
+        "g",
+        "maroon",
+        "k",
+        "gold",
+        "midnightblue",
+        "red",
+        "indigo",
+        "darkorange",
+        "g",
+        "maroon",
+    ]
 
-ballCB.setColour(ballColours[0])
-ballSY.setColour(ballColours[1])
-ballSB.setColour(ballColours[2])
-ballSR.setColour(ballColours[3])
-ballSV.setColour(ballColours[4])
-ballSO.setColour(ballColours[5])
-ballSG.setColour(ballColours[6])
-ballSM.setColour(ballColours[7])
-ballSBlk.setColour(ballColours[8])
-ballYS.setColour(ballColours[9])
-ballBS.setColour(ballColours[10])
-ballRS.setColour(ballColours[11])
-ballVS.setColour(ballColours[12])
-ballOS.setColour(ballColours[13])
-ballGS.setColour(ballColours[14])
-ballMS.setColour(ballColours[15])
+    ballCB.setColour(ballColours[0])
+    ballSY.setColour(ballColours[1])
+    ballSB.setColour(ballColours[2])
+    ballSR.setColour(ballColours[3])
+    ballSV.setColour(ballColours[4])
+    ballSO.setColour(ballColours[5])
+    ballSG.setColour(ballColours[6])
+    ballSM.setColour(ballColours[7])
+    ballSBlk.setColour(ballColours[8])
+    ballYS.setColour(ballColours[9])
+    ballBS.setColour(ballColours[10])
+    ballRS.setColour(ballColours[11])
+    ballVS.setColour(ballColours[12])
+    ballOS.setColour(ballColours[13])
+    ballGS.setColour(ballColours[14])
+    ballMS.setColour(ballColours[15])
 
+    # Final Rendering
 
-# Final Rendering
+    width = 1280  # MP4 #640 each
+    height = 480  # MP4
+    temp_folder_name = "rendering/temp/"
+    # Check if the folder exists
+    if os.path.exists(temp_folder_name):
+        # If it exists, remove it and its contents
+        shutil.rmtree(temp_folder_name)
+        print(f"Folder '{temp_folder_name}' and its contents removed.")
 
-width = 1280  # MP4 #640 each
-height = 480  # MP4
-temp_folder_name = "rendering/temp/"
-# Check if the folder exists
-if os.path.exists(temp_folder_name):
-    # If it exists, remove it and its contents
-    shutil.rmtree(temp_folder_name)
-    print(f"Folder '{temp_folder_name}' and its contents removed.")
+    # Create the folder
+    os.makedirs(temp_folder_name)
+    print(f"Folder '{temp_folder_name}' created.")
+    file_name = temp_folder_name + "rendering"  # MP4
 
-# Create the folder
-os.makedirs(temp_folder_name)
-print(f"Folder '{temp_folder_name}' created.")
-file_name = temp_folder_name + "rendering"  # MP4
+    video_folder_name = "rendering/video/"
 
-video_folder_name = "rendering/video/"
+    # Check if the folder exists
+    if os.path.exists(video_folder_name):
+        # If it exists, remove it and its contents
+        shutil.rmtree(video_folder_name)
+        print(f"Folder '{video_folder_name}' and its contents removed.")
 
-# Check if the folder exists
-if os.path.exists(video_folder_name):
-    # If it exists, remove it and its contents
-    shutil.rmtree(video_folder_name)
-    print(f"Folder '{video_folder_name}' and its contents removed.")
+    # Create the folder
+    os.makedirs(video_folder_name)
+    print(f"Folder '{video_folder_name}' created.")
+    OUTPUT_FILE = video_folder_name + "rendering.mp4"  # MP4
+    fourcc = cv2.VideoWriter_fourcc("M", "P", "4", "V")  # MP4
+    writer = cv2.VideoWriter(
+        OUTPUT_FILE, fourcc, 30, (width, height)  # fps
+    )  # resolution #MP4
 
-# Create the folder
-os.makedirs(video_folder_name)
-print(f"Folder '{video_folder_name}' created.")
-OUTPUT_FILE = video_folder_name + "rendering.mp4"  # MP4
-fourcc = cv2.VideoWriter_fourcc("M", "P", "4", "V")  # MP4
-writer = cv2.VideoWriter(
-    OUTPUT_FILE, fourcc, 30, (width, height)  # fps
-)  # resolution #MP4
+    file_input_path = (
+        "dataset/dataset_final_test/dataset_slow_30_strike_1_vertical_horizontal.csv"
+    )
 
-file_input_path = (
-    "dataset/dataset_final_test/dataset_slow_30_strike_1_vertical_horizontal.csv"
-)
+    with open(file_input_path) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=",")
+        frame_no = 0  # MP4
+        for row in csv_reader:
+            # Create a figure with a subplot
+            fig1, axes1 = plt.subplots(1, 1)
+            axes1.set_xlim(0, 2.06)
+            axes1.set_ylim(0, 1.09)
+            axes1.set_aspect("equal")
+            axes1.set_title("Real Data")
 
+            # Render real data
+            real_window = renderMP4(
+                row, file_name, frame_no, axes1, window=0, saveToDisk=0
+            )  # Call this function to render frame, pass row of 32 values
+            plt.close(fig1)
 
-with open(file_input_path) as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=",")
-    frame_no = 0  # MP4
-    for row in csv_reader:
-        # Create a figure with a subplot
-        fig1, axes1 = plt.subplots(1, 1)
-        axes1.set_xlim(0, 2.06)
-        axes1.set_ylim(0, 1.09)
-        axes1.set_aspect("equal")
-        axes1.set_title("Real Data")
+            # real_window = cv2.imread(file_name + "_0_" + str(frame_no) + ".png")  # MP4
 
-        # Render real data
-        real_window = renderMP4(
-            row, file_name, frame_no, axes1, window=0, saveToDisk=0
-        )  # Call this function to render frame, pass row of 32 values
-        plt.close(fig1)
+            # Create a figure with a subplot
+            fig2, axes2 = plt.subplots(1, 1)
+            axes2.set_xlim(0, 2.06)
+            axes2.set_ylim(0, 1.09)
+            axes2.set_aspect("equal")
+            axes2.set_title("Predicted output (LSTM)")
 
-        # real_window = cv2.imread(file_name + "_0_" + str(frame_no) + ".png")  # MP4
+            # Render predicted data (LSTM)
+            predicted_window = renderMP4(
+                row, file_name, frame_no, axes2, window=1, saveToDisk=0
+            )  # Call this function to render frame, pass row of 32 values
+            plt.close(fig2)
 
-        # Create a figure with a subplot
-        fig2, axes2 = plt.subplots(1, 1)
-        axes2.set_xlim(0, 2.06)
-        axes2.set_ylim(0, 1.09)
-        axes2.set_aspect("equal")
-        axes2.set_title("Predicted output (LSTM)")
+            # predicted_window = cv2.imread(file_name + "_1_" + str(frame_no) + ".png")  # MP4
 
-        # Render predicted data (LSTM)
-        predicted_window = renderMP4(
-            row, file_name, frame_no, axes2, window=1, saveToDisk=0
-        )  # Call this function to render frame, pass row of 32 values
-        plt.close(fig2)
+            # print("Real window size:", real_window.shape)
+            # print("Predicted window size:", predicted_window.shape)
 
-        # predicted_window = cv2.imread(file_name + "_1_" + str(frame_no) + ".png")  # MP4
+            # Concatenate two windows
+            vis = np.concatenate((real_window, predicted_window), axis=1)
+            display_window = vis
+            # cv2.imwrite(file_name + str(frame_no) + ".png", vis)
+            # display_window = cv2.imread(file_name + str(frame_no) + ".png")
 
-        # print("Real window size:", real_window.shape)
-        # print("Predicted window size:", predicted_window.shape)
+            writer.write(display_window)  # MP4
 
-        # Concatenate two windows
-        vis = np.concatenate((real_window, predicted_window), axis=1)
-        display_window = vis
-        # cv2.imwrite(file_name + str(frame_no) + ".png", vis)
-        # display_window = cv2.imread(file_name + str(frame_no) + ".png")
+            if not ((frame_no + 1) % 10):
+                print(f"frame {frame_no+1} processed")
 
-        writer.write(display_window)  # MP4
+            frame_no += 1  # MP4
 
-        if not ((frame_no + 1) % 10):
-            print(f"frame {frame_no+1} processed")
+    print("all frames processed")
+    writer.release()  # MP4
 
-        frame_no += 1  # MP4
-
-print("all frames processed")
-writer.release()  # MP4
-
-
-# ---------------------------------------------------------------------------------------------------
-#####                                         END                                              #####
-# ---------------------------------------------------------------------------------------------------
+    # ---------------------------------------------------------------------------------------------------
+    #####                                         END                                              #####
+    # ---------------------------------------------------------------------------------------------------

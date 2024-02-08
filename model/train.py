@@ -11,8 +11,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import os
-from lstm import LSTMNet
-from dataset import SequenceDataset, SyntheticDataset
+from model.lstm import LSTMNet
+from model.dataset import SequenceDataset, SyntheticDataset
 
 # run on cpu or gpu?
 parser = argparse.ArgumentParser(description='train')
@@ -45,10 +45,10 @@ filter_moving = True
 
 model_name = 'lstm_rel'
 
-path_model = 'savedModels/lstm_model_' + model_name
+path_model = 'model/savedModels/lstm_model_' + model_name
 
 # path_dataset must lead to a folder with csv-files in it:
-path_dataset = '../dataset/dataset_final_train'
+path_dataset = 'dataset/dataset_final_train'
 
 
 

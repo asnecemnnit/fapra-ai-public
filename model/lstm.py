@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from base import BaseNet
+from model.base import BaseNet
 
 # Hyperparameters
 hidden_dim = 64
