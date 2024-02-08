@@ -82,7 +82,7 @@
 
 <h3 align="center">Table Rendering (and Prediction)</h3>
 <p align="center">
-  <img title="Table Rendering" alt="Table Rendering" src="/rendering/frame_0_0.jpg">
+  <img title="Table Rendering" alt="Table Rendering" src="/images/lstm_model_lstm_rel_in15_out15_ts2_ds1_gt0_ls30_biasTrue_polTrue_movTrue_lr0.0001_e3_n0.0710_t0.0693_v0.0673_entire_clip_dataset_New7_clip_37_strike_1_vertical.csv-ezgif.com-video-to-gif-converter.gif" width="1280" height="480">
 </p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
